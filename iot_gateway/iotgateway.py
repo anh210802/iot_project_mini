@@ -113,6 +113,7 @@ class MQTTgateway:
                     self.auto = "1"
                     print("Turn on auto mode")
                 else:
+                    self.auto = "0"
                     self.limit_temp = ""
                     self.time_on = ""
                     self.check_send = ""
